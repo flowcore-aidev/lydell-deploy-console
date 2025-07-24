@@ -1,4 +1,4 @@
-const BACKEND_URL = "https://your-backend-service.onrender.com";
+const BACKEND_URL = "https://lydell-deploy-console.onrender.com/";
 
 export const sendPrompt = async (prompt) => {
   try {
