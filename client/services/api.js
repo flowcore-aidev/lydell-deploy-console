@@ -1,4 +1,4 @@
-const BACKEND_URL = "https://deploybackend-rq7i.onrender.com";
+const BACKEND_URL = "https://deploybackend-rq7i.onrender.com/api/gpt";
 
 export const sendPrompt = async (prompt) => {
   try {
