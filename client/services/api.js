@@ -1,8 +1,8 @@
-const BACKEND_URL = "https://deploybackend-rq7i.onrender.com/api/gpt";
+const BACKEND_URL = "https://deploybackend-rq7i.onrender.com";
 
 export const sendPrompt = async (prompt) => {
   try {
-    const response = await fetch(`${https://deploybackend-rq7i.onrender.com}/api/gpt`, {
+    const response = await fetch(`${https://deploybackend-rq7i.onrender.com}`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
